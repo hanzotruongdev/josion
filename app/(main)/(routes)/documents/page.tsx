@@ -40,7 +40,7 @@ export default function DocumentPage() {
         className="hidden dark:block" />
 
       <h2 className="text-lg font-medium">
-        Welcome to {user?.firstName}&apos;s Jotion
+        Welcome to {user?.firstName}&apos;s Josion
       </h2>
 
       <Button onClick={onCreate}>

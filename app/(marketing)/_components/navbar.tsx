@@ -28,7 +28,7 @@ export default function NavBar() {
 
             <SignInButton>
               <Button variant={"ghost"} size={"sm"}>
-                Get Jotion free
+                Get Josion free
               </Button>
             </SignInButton>
           </>
@@ -37,7 +37,7 @@ export default function NavBar() {
           <>
             <Button variant={"ghost"} size={"sm"} asChild>
               <Link href={"/documents"}>
-                Enter Jotion
+                Enter Josion
               </Link>
 
             </Button>

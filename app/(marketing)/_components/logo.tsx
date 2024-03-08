@@ -26,7 +26,7 @@ export default function Logo() {
         className="hidden dark:block" />
 
       <p className={cn("font-semibold", font.className)}>
-        Jotion
+        Josion
       </p>
     </div>
   )

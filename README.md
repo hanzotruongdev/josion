@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Notion clone for learning purpose (learning source: YOUTUBE Antonio)
+
+Live demo: [https://josion.vercel.app/](https://josion.vercel.app/)
 
 ## Getting Started
 

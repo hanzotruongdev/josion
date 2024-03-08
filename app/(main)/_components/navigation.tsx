@@ -6,8 +6,8 @@ import { useSearch } from "@/hooks/use-search"
 import { useSetting } from "@/hooks/use-settings"
 import { cn } from "@/lib/utils"
 import { useMutation, useQuery } from "convex/react"
-import { ChevronsLeft, MenuIcon, Plus, PlusCircle, Search, Settings, Trash } from "lucide-react"
-import { useParams, usePathname } from "next/navigation"
+import { ChevronsLeft, GithubIcon, MenuIcon, Plus, PlusCircle, Search, Settings, Trash } from "lucide-react"
+import { useParams, usePathname, useRouter } from "next/navigation"
 import { ElementRef, useEffect, useRef, useState } from "react"
 import { toast } from "sonner"
 import { useMediaQuery } from "usehooks-ts"
@@ -18,6 +18,7 @@ import TrashBox from "./trash-box"
 import UserItem from "./user-item"
 
 export default function Navigation() {
+  const router = useRouter()
   const settings = useSetting()
   const search = useSearch()
   const params = useParams()
@@ -154,6 +155,11 @@ export default function Navigation() {
             onClick={settings.onOpen}
             label="Setting"
             icon={Settings}
+          />
+          <Item
+            onClick={() => router.push('https://github.com/hanzotruongdev/josion')}
+            label="Github (HanzoTruong)"
+            icon={GithubIcon}
           />
           <Item
             onClick={handleCreate}
