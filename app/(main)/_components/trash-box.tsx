@@ -11,7 +11,7 @@ import { useParams, useRouter } from "next/navigation"
 import { useState } from "react"
 import { toast } from "sonner"
 
-export default function () {
+export default function TrashBox() {
   const router = useRouter()
   const params = useParams()
   const documents = useQuery(api.documents.getTrash)
